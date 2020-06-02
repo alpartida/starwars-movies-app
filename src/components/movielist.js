@@ -13,11 +13,11 @@ const MovieList = props => {
   return (
     <ul className="row">
       {
-        // Create your .map function here
+        // Created .map function here
         props.movies.map(movie => (
           <Movie
-          key={movie.title} // DO NOT EDIT KEY
-          // Pass correct props below
+          key={movie.title}
+          // Passed correct props below
           title={movie.title}
           release_date={movie.release_date}
           episode_id={movie.episode_id}

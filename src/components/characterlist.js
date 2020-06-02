@@ -13,10 +13,10 @@ const CharacterList = props => {
   return (
     <div className="row">
       {
-        // Create your .map function here
+        // Created  .map function here
         props.characters.map(person => (
           <Character
-            key={person.name} // DO NOT EDIT
+            key={person.name}
             // Enter the correct props here
             name={person.name}
             eye_color={person.eye_color}

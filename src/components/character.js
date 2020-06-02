@@ -19,7 +19,7 @@ const Character = props => {
       {/* Remove these comments when you finish handling the code above (you can see name, birth_year, eye_color on page)      */}
 
       <MovieList
-        // Add your props here!
+        // Added props here!
       movies={props.films}
       />
     </div>
