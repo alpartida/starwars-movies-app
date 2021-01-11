@@ -2,12 +2,7 @@ import React from 'react';
 import { string, number } from 'prop-types';
 
 const Movie = props => {
-  //   Add any `console.log` code here before the `return` statement if you want to inspect a variable
-  // -------- CODE HERE ----------
 
-
-
-  // -----------------------------
   return (
     <li>
       <h3>{props.title}</h3>

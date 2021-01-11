@@ -4,12 +4,7 @@ import { array } from 'prop-types';
 import Character from './character.js'
 
 const CharacterList = props => {
-  //   Add any `console.log` code here before the `return` statement if you want to inspect a variable
-  // -------- CODE HERE ----------
-
-
-
-  // -----------------------------
+  
   return (
     <div className="row">
       {
@@ -17,7 +12,7 @@ const CharacterList = props => {
         props.characters.map(person => (
           <Character
             key={person.name}
-            // Enter the correct props here
+            // Entered the correct props here
             name={person.name}
             eye_color={person.eye_color}
             birth_year={person.birth_year}

@@ -4,12 +4,7 @@ import { array } from 'prop-types';
 import Movie from './movie';
 
 const MovieList = props => {
-  //   Add any `console.log` code here before the `return` statement if you want to inspect a variable
-  // -------- CODE HERE ----------
-
-
-
-  // -----------------------------
+ 
   return (
     <ul className="row">
       {
