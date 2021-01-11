@@ -1,18 +1,4 @@
 # Starwars Lab
 
-To set up site:
-
-* run `npm install` in /starwars-lab folder
-* run `npm start` to start site (should pop up in http://localhost:3000)
-
-
-Files you will be inspecting:
-
-```bash
-/src/data/index.js
-/src/App.js
-/src/components/character.js
-/src/components/characterlist.js
-/src/components/movie.js
-/src/components/movielist.js
+Starwars Lab that sorts Star Wars Characters in 3 different ways, alabetically, reverse alphebetically and random. The characters data and different movies they starred in is then also displayed. I used React and React hooks to build this application. This was another lab during my time at Redwood Code Academy. Super fun and helped drill the idea of React, components, and React Hooks. :rocket:
 ```
